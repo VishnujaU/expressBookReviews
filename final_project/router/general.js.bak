@@ -8,7 +8,7 @@ const public_users = express.Router();
 
 function checkUsernameAvailability(username) {
     for (var i = 0; i < users.length; i++) {
-        if (users[i].username === username && username.length > 0) {
+        if (users[i].username === username && .length > 0) {
             return true// Username found, return true indicating it's already in the list
         }
     }
